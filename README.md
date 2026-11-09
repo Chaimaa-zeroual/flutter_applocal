@@ -73,3 +73,31 @@ flutter run
 Flutter Developer
 
 [GitHub Repository](https://github.com/Chaimaa-zeroual/flutter_applocal)
+
+
+## Application Screenshots
+
+### 1. User Registration
+Create an account and enter personal information.
+
+![Registration](screenshots/inscription.png)
+
+### 2. User Login
+Secure user authentication.
+
+![Login](screenshots/connexion.png)
+
+### 3. User Profile
+View personal information provided during registration.
+
+![Profile](screenshots/profil.png)
+
+### 4. Marketplace Home
+Browse all available products.
+
+![Marketplace](screenshots/accueil.png)
+
+### 5. Add a Product
+Publish an item for sale with its details and image.
+
+![Add Product](screenshots/ajouter-article.png)
