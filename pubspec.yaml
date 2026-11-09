@@ -1,0 +1,47 @@
+name: ecommerce
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'    # SEULEMENT le sdk ici
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.6
+  firebase_auth:
+  firebase_core:
+  cloud_firestore:
+  flutter_svg:
+  flutter_bloc:
+  dartz:
+  get_it:
+  image_picker: ^1.1.2   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # - assets/images/img-1737986031434.jpeg
+    # - assets/images/sebi.jpeg
+    - assets/fonts/
+    - assets/vectors/
+    - assets/images/
+
+  fonts:
+    - family: pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
