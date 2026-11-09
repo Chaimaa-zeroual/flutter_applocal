@@ -1,16 +1,75 @@
-# flutter_app
+# Flutter E-Commerce App
 
-A new Flutter project.
+A mobile e-commerce application developed with **Flutter**, **Dart**, and **Firebase**.
 
-## Getting Started
+## About the Project
 
-This project is a starting point for a Flutter application.
+This project is an online marketplace that allows users to browse products, publish their own listings, and interact with other users.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User registration and login.
+- Firebase Authentication.
+- Add and edit products.
+- Upload product images.
+- Real-time product data with Cloud Firestore.
+- Product details and descriptions.
+- Shopping cart.
+- Favorites.
+- User profiles.
+- Messaging and chat.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+
+## Project Structure
+
+```text
+lib/
+├── models/
+├── pages/
+├── providers/
+├── services/
+├── widgets/
+├── app.dart
+└── main.dart
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Chaimaa-zeroual/flutter_applocal.git
+```
+
+Open the project:
+
+```bash
+cd flutter_applocal
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Configure Firebase with your own project credentials, then run:
+
+```bash
+flutter run
+```
+
+## Author
+
+**Chaimaa Zeroual**
+
+Flutter Developer
+
+[GitHub Repository](https://github.com/Chaimaa-zeroual/flutter_applocal)
